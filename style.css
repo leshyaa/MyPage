@@ -1,0 +1,118 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
+
+.body1{
+    box-sizing:border-box;
+    padding-top:150px;
+    margin-top: 100px;
+    padding-bottom:150px;
+    background-image: url('./bg.jpg');
+    background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  transition:opacity 0.1s;
+}
+.body3{
+    box-sizing:border-box;
+    padding-top:150px;
+    margin-top: 100px;
+    padding-bottom:150px;
+    background-image: url('./bg.jpg');
+    background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  transition:opacity 0.1s;
+}
+.content1{
+    margin: 2% 12%;
+    background-color: white;
+    padding: 2% 7%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+li, a, button{
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: white;
+    text-decoration: none;
+}
+
+header{
+    background-color: black;
+    display: flex;
+    justify-content:flex-start;
+    align-items: center;
+    padding: 17px 10%;
+    position:fixed;
+    top:0;
+    width:100%;
+
+}
+
+
+.logoin{
+    cursor:pointer;
+    color: white ;
+}
+
+.navbar{
+    list-style: none;
+}
+
+.navbar li{
+    display: inline-block;
+    padding: 0px 10px;
+}
+
+.navbar li a{
+    transition: all 0.3s ease 0s;
+}
+
+.navbar li a:hover{
+    font-weight: bolder;
+}
+
+.Hey{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: whitesmoke;
+    border-radius: 5%;
+    box-shadow: 10px grey;
+    padding: 20px;
+    margin-left: 22%;
+    margin-right: 22%;
+}
+
+.Heytext{
+    font-family: 'Great Vibes';
+    font-size: 80px;
+}
+
+.Heytext2{
+    font-family: 'Montserrat';
+    font-size: 16px;
+}
+
+.body2{
+    padding: 0px 10%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.abouth{
+    font-family: 'Great Vibes';
+    font-size: 80px;
+    padding-right: 5%;
+}
+
+.aboutt{
+    font-family: 'Montserrat';
+    font-size: 16px;
+}
